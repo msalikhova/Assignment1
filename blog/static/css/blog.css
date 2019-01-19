@@ -1,0 +1,103 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif;
+    background-image: url(../css/lukas.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: Sacramento;
+    font-weight: bold;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: Sacramento;
+    color:#3d3d29 ;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: Sacramento;
+    color:#3d3d29 ;
+}
+a {
+  text-decoration: none;
+    color: #4d4d33;
+}
+
+
+
+#content {
+    float:left;
+    width:60%;
+    padding:0 0 0 30px;
+}
+
+p.date {
+    color:#3d3d29;
+    font-family: georgia, serif;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* pagination */
+.pagination {
+    margin:40px 0;
+    font-weight:bold;
+}
+
+/* forms */
+label {
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px;
+}
+input, textarea {
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#6b6b47;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+.errorlist {
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px;
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
